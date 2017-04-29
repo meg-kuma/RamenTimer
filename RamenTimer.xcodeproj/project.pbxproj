@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDB264F31EB4B8EB00941FBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB264F21EB4B8EB00941FBE /* AppDelegate.swift */; };
+		DDB264F51EB4B8EB00941FBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB264F41EB4B8EB00941FBE /* ViewController.swift */; };
+		DDB264F81EB4B8EB00941FBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB264F61EB4B8EB00941FBE /* Main.storyboard */; };
+		DDB264FA1EB4B8EB00941FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB264F91EB4B8EB00941FBE /* Assets.xcassets */; };
+		DDB264FD1EB4B8EB00941FBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB264FB1EB4B8EB00941FBE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDB264EF1EB4B8EB00941FBE /* RamenTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RamenTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB264F21EB4B8EB00941FBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDB264F41EB4B8EB00941FBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDB264F71EB4B8EB00941FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDB264F91EB4B8EB00941FBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDB264FC1EB4B8EB00941FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDB264FE1EB4B8EB00941FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDB264EC1EB4B8EB00941FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDB264E61EB4B8EB00941FBE = {
+			isa = PBXGroup;
+			children = (
+				DDB264F11EB4B8EB00941FBE /* RamenTimer */,
+				DDB264F01EB4B8EB00941FBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDB264F01EB4B8EB00941FBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDB264EF1EB4B8EB00941FBE /* RamenTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDB264F11EB4B8EB00941FBE /* RamenTimer */ = {
+			isa = PBXGroup;
+			children = (
+				DDB264F21EB4B8EB00941FBE /* AppDelegate.swift */,
+				DDB264F41EB4B8EB00941FBE /* ViewController.swift */,
+				DDB264F61EB4B8EB00941FBE /* Main.storyboard */,
+				DDB264F91EB4B8EB00941FBE /* Assets.xcassets */,
+				DDB264FB1EB4B8EB00941FBE /* LaunchScreen.storyboard */,
+				DDB264FE1EB4B8EB00941FBE /* Info.plist */,
+			);
+			path = RamenTimer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDB264EE1EB4B8EB00941FBE /* RamenTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB265011EB4B8EB00941FBE /* Build configuration list for PBXNativeTarget "RamenTimer" */;
+			buildPhases = (
+				DDB264EB1EB4B8EB00941FBE /* Sources */,
+				DDB264EC1EB4B8EB00941FBE /* Frameworks */,
+				DDB264ED1EB4B8EB00941FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RamenTimer;
+			productName = RamenTimer;
+			productReference = DDB264EF1EB4B8EB00941FBE /* RamenTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDB264E71EB4B8EB00941FBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Masatoshi Meguro";
+				TargetAttributes = {
+					DDB264EE1EB4B8EB00941FBE = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DDB264EA1EB4B8EB00941FBE /* Build configuration list for PBXProject "RamenTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDB264E61EB4B8EB00941FBE;
+			productRefGroup = DDB264F01EB4B8EB00941FBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDB264EE1EB4B8EB00941FBE /* RamenTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDB264ED1EB4B8EB00941FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB264FD1EB4B8EB00941FBE /* LaunchScreen.storyboard in Resources */,
+				DDB264FA1EB4B8EB00941FBE /* Assets.xcassets in Resources */,
+				DDB264F81EB4B8EB00941FBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDB264EB1EB4B8EB00941FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB264F51EB4B8EB00941FBE /* ViewController.swift in Sources */,
+				DDB264F31EB4B8EB00941FBE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDB264F61EB4B8EB00941FBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB264F71EB4B8EB00941FBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDB264FB1EB4B8EB00941FBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB264FC1EB4B8EB00941FBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDB264FF1EB4B8EB00941FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDB265001EB4B8EB00941FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDB265021EB4B8EB00941FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RamenTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.masatoshi.RamenTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DDB265031EB4B8EB00941FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RamenTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.masatoshi.RamenTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDB264EA1EB4B8EB00941FBE /* Build configuration list for PBXProject "RamenTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB264FF1EB4B8EB00941FBE /* Debug */,
+				DDB265001EB4B8EB00941FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB265011EB4B8EB00941FBE /* Build configuration list for PBXNativeTarget "RamenTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB265021EB4B8EB00941FBE /* Debug */,
+				DDB265031EB4B8EB00941FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDB264E71EB4B8EB00941FBE /* Project object */;
+}
