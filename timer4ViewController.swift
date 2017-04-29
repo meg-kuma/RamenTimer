@@ -1,8 +1,8 @@
 //
-//  ViewController.swift
+//  timer4ViewController.swift
 //  RamenTimer
 //
-//  Created by 目黒将稔 on 2017/04/29.
+//  Created by 目黒将稔 on 2017/04/30.
 //  Copyright © 2017年 Masatoshi Meguro. All rights reserved.
 //
 
@@ -10,14 +10,14 @@ import UIKit
 import AudioToolbox
 import AVFoundation
 
-class ViewController: UIViewController {
+class timer4ViewController: UIViewController {
     
     @IBOutlet var timerLimit: UILabel!
     
     var audioPlayer: AVAudioPlayer!
     
     
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     @IBAction func startTimer(_ sender: Any) {
         
         let tmLabel: Timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(self.downTimer), userInfo: nil, repeats: true)
-      tmLabel.fire()
+        tmLabel.fire()
         
         
     }
@@ -74,17 +74,17 @@ class ViewController: UIViewController {
         
         
     }
-
     
     
-
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-       
+        
         
         
     }
-
-
+    
+    
 }
 

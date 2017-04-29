@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD6C42BF1EB4F4C500D04011 /* timer4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C42BE1EB4F4C500D04011 /* timer4ViewController.swift */; };
+		DD6C42C11EB4F56A00D04011 /* timer5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C42C01EB4F56A00D04011 /* timer5ViewController.swift */; };
 		DDB264F31EB4B8EB00941FBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB264F21EB4B8EB00941FBE /* AppDelegate.swift */; };
 		DDB264F51EB4B8EB00941FBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB264F41EB4B8EB00941FBE /* ViewController.swift */; };
 		DDB264F81EB4B8EB00941FBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB264F61EB4B8EB00941FBE /* Main.storyboard */; };
 		DDB264FA1EB4B8EB00941FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB264F91EB4B8EB00941FBE /* Assets.xcassets */; };
 		DDB264FD1EB4B8EB00941FBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB264FB1EB4B8EB00941FBE /* LaunchScreen.storyboard */; };
+		DDB265071EB4C12000941FBE /* capramen.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB265061EB4C12000941FBE /* capramen.png */; };
+		DDB2650A1EB4DD4200941FBE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB265091EB4DD4200941FBE /* AudioToolbox.framework */; };
+		DDB2650E1EB4E6B000941FBE /* alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDB2650D1EB4E6B000941FBE /* alarm.mp3 */; };
+		DDB265101EB4E82A00941FBE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB2650F1EB4E82A00941FBE /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD6C42BE1EB4F4C500D04011 /* timer4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = timer4ViewController.swift; path = ../timer4ViewController.swift; sourceTree = "<group>"; };
+		DD6C42C01EB4F56A00D04011 /* timer5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = timer5ViewController.swift; sourceTree = "<group>"; };
 		DDB264EF1EB4B8EB00941FBE /* RamenTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RamenTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB264F21EB4B8EB00941FBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDB264F41EB4B8EB00941FBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,10 @@
 		DDB264F91EB4B8EB00941FBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDB264FC1EB4B8EB00941FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDB264FE1EB4B8EB00941FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB265061EB4C12000941FBE /* capramen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = capramen.png; sourceTree = "<group>"; };
+		DDB265091EB4DD4200941FBE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DDB2650D1EB4E6B000941FBE /* alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm.mp3; sourceTree = "<group>"; };
+		DDB2650F1EB4E82A00941FBE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDB265101EB4E82A00941FBE /* AVFoundation.framework in Frameworks */,
+				DDB2650A1EB4DD4200941FBE /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +54,7 @@
 			children = (
 				DDB264F11EB4B8EB00941FBE /* RamenTimer */,
 				DDB264F01EB4B8EB00941FBE /* Products */,
+				DDB265081EB4DD4100941FBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +69,27 @@
 		DDB264F11EB4B8EB00941FBE /* RamenTimer */ = {
 			isa = PBXGroup;
 			children = (
+				DDB265061EB4C12000941FBE /* capramen.png */,
+				DDB2650D1EB4E6B000941FBE /* alarm.mp3 */,
 				DDB264F21EB4B8EB00941FBE /* AppDelegate.swift */,
 				DDB264F41EB4B8EB00941FBE /* ViewController.swift */,
+				DD6C42BE1EB4F4C500D04011 /* timer4ViewController.swift */,
 				DDB264F61EB4B8EB00941FBE /* Main.storyboard */,
 				DDB264F91EB4B8EB00941FBE /* Assets.xcassets */,
 				DDB264FB1EB4B8EB00941FBE /* LaunchScreen.storyboard */,
 				DDB264FE1EB4B8EB00941FBE /* Info.plist */,
+				DD6C42C01EB4F56A00D04011 /* timer5ViewController.swift */,
 			);
 			path = RamenTimer;
+			sourceTree = "<group>";
+		};
+		DDB265081EB4DD4100941FBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDB2650F1EB4E82A00941FBE /* AVFoundation.framework */,
+				DDB265091EB4DD4200941FBE /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +124,7 @@
 				TargetAttributes = {
 					DDB264EE1EB4B8EB00941FBE = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = SJVALSCJ57;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,7 +154,9 @@
 			files = (
 				DDB264FD1EB4B8EB00941FBE /* LaunchScreen.storyboard in Resources */,
 				DDB264FA1EB4B8EB00941FBE /* Assets.xcassets in Resources */,
+				DDB265071EB4C12000941FBE /* capramen.png in Resources */,
 				DDB264F81EB4B8EB00941FBE /* Main.storyboard in Resources */,
+				DDB2650E1EB4E6B000941FBE /* alarm.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +167,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD6C42BF1EB4F4C500D04011 /* timer4ViewController.swift in Sources */,
 				DDB264F51EB4B8EB00941FBE /* ViewController.swift in Sources */,
+				DD6C42C11EB4F56A00D04011 /* timer5ViewController.swift in Sources */,
 				DDB264F31EB4B8EB00941FBE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +293,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SJVALSCJ57;
 				INFOPLIST_FILE = RamenTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.masatoshi.RamenTimer;
@@ -272,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SJVALSCJ57;
 				INFOPLIST_FILE = RamenTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.masatoshi.RamenTimer;
@@ -299,6 +334,7 @@
 				DDB265031EB4B8EB00941FBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
