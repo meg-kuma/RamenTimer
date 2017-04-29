@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD6C42BF1EB4F4C500D04011 /* timer4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C42BE1EB4F4C500D04011 /* timer4ViewController.swift */; };
 		DD6C42C11EB4F56A00D04011 /* timer5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C42C01EB4F56A00D04011 /* timer5ViewController.swift */; };
+		DD6C42C31EB500C300D04011 /* timer4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C42C21EB500C300D04011 /* timer4ViewController.swift */; };
 		DDB264F31EB4B8EB00941FBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB264F21EB4B8EB00941FBE /* AppDelegate.swift */; };
 		DDB264F51EB4B8EB00941FBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB264F41EB4B8EB00941FBE /* ViewController.swift */; };
 		DDB264F81EB4B8EB00941FBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB264F61EB4B8EB00941FBE /* Main.storyboard */; };
@@ -21,8 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DD6C42BE1EB4F4C500D04011 /* timer4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = timer4ViewController.swift; path = ../timer4ViewController.swift; sourceTree = "<group>"; };
 		DD6C42C01EB4F56A00D04011 /* timer5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = timer5ViewController.swift; sourceTree = "<group>"; };
+		DD6C42C21EB500C300D04011 /* timer4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = timer4ViewController.swift; sourceTree = "<group>"; };
 		DDB264EF1EB4B8EB00941FBE /* RamenTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RamenTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB264F21EB4B8EB00941FBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDB264F41EB4B8EB00941FBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,12 +73,12 @@
 				DDB2650D1EB4E6B000941FBE /* alarm.mp3 */,
 				DDB264F21EB4B8EB00941FBE /* AppDelegate.swift */,
 				DDB264F41EB4B8EB00941FBE /* ViewController.swift */,
-				DD6C42BE1EB4F4C500D04011 /* timer4ViewController.swift */,
+				DD6C42C21EB500C300D04011 /* timer4ViewController.swift */,
+				DD6C42C01EB4F56A00D04011 /* timer5ViewController.swift */,
 				DDB264F61EB4B8EB00941FBE /* Main.storyboard */,
 				DDB264F91EB4B8EB00941FBE /* Assets.xcassets */,
 				DDB264FB1EB4B8EB00941FBE /* LaunchScreen.storyboard */,
 				DDB264FE1EB4B8EB00941FBE /* Info.plist */,
-				DD6C42C01EB4F56A00D04011 /* timer5ViewController.swift */,
 			);
 			path = RamenTimer;
 			sourceTree = "<group>";
@@ -167,7 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD6C42BF1EB4F4C500D04011 /* timer4ViewController.swift in Sources */,
+				DD6C42C31EB500C300D04011 /* timer4ViewController.swift in Sources */,
 				DDB264F51EB4B8EB00941FBE /* ViewController.swift in Sources */,
 				DD6C42C11EB4F56A00D04011 /* timer5ViewController.swift in Sources */,
 				DDB264F31EB4B8EB00941FBE /* AppDelegate.swift in Sources */,
